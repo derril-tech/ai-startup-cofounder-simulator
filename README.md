@@ -1,10 +1,6 @@
 # 🚀 AI Startup Co-Founder Simulator
 ***with CrewAI***
 
-
-**🌐 See the Live Application at:**
-[https://aistartupsimulator.vercel.app//](https://aistartupsimulator.vercel.app/)
-
 > **Transform your startup ideas into actionable business plans with AI-powered co-founder debates**
 
 ## 🎯 What is the AI Startup Co-Founder Simulator?
@@ -109,39 +105,7 @@ graph TB
     L[📡 NATS Event Bus] --> D
 ```
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+
-- Python 3.9+
-- Docker & Docker Compose
-- OpenAI API Key
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-org/ai-startup-co-founder-simulator.git
-cd ai-startup-co-founder-simulator
-
-# Start the development environment
-docker-compose -f docker-compose.dev.yml up -d
-
-# Install frontend dependencies
-cd apps/frontend
-npm install
-
-# Install backend dependencies
-cd ../orchestrator
-pip install -r requirements.txt
-
-# Run database migrations
-alembic upgrade head
-
-# Start the development servers
-npm run dev  # Frontend
-python main.py  # Backend
-```
+---
 
 ### 🎮 First Simulation
 
